@@ -1,4 +1,4 @@
-# Nanocode investor demo UI (React + TypeScript + Vite)
+# Nanocode demo UI (React + TypeScript + Vite)
 
 Single-page UI that showcases the existing Nanocode wrapper. All calls go to the backend endpoints described in the root README:
 
