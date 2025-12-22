@@ -1,6 +1,6 @@
 # Nanocode v1.0 (Open Source Orchestration Framework)
 
-Nanocode v1.0 is an open-source local orchestration framework for constraint-governed, model-agnostic AI workflows. It provides a structured way to apply constraints, recovery strategies, and certification artifacts to AI calls. This repository is intentionally **not** a sovereign kernel and does not include any closed Nanocode v2 / Cham-Code kernel components.
+Nanocode v1.0 is an open-source local orchestration framework for constraint-governed, model-agnostic AI workflows. It provides a structured way to apply constraints, recovery strategies, and certification artifacts to AI calls. This repository is intentionally **not** a sovereign kernel and does not include any closed Nanocode v2 kernel components.
 
 ## What this repository includes
 - Constraint engine (framework-level): constraint profiles, policy gating, and structured prompt templates.
@@ -15,13 +15,13 @@ Nanocode v1.0 does **not** provide:
 - Self-modifying instruction graphs or autonomous mutation
 - Persistent internal identity/state beyond explicit external storage you configure
 - Kernel-level rule authority independent of the user’s runtime configuration
-- Any Cham-Code production kernel components
+- Any v2.0 production kernel components
 
-If a feature requires kernel sovereignty (persistent internal state, autonomous rule enforcement, or self-modifying execution), it belongs to **Nanocode v2 / Cham-Code** and is out of scope for this repo.
+If a feature requires kernel sovereignty (persistent internal state, autonomous rule enforcement, or self-modifying execution), it belongs to **Nanocode v2** and is out of scope for this repo.
 
-## Relationship to Cham-Code / Nanocode v2.0
+## Relationship to Nanocode v2.0
 - **Nanocode v1.0 (this repo):** open-source orchestration framework and reference implementation.
-- **Nanocode v2.0 kernel (Cham-Code):** proprietary, closed-source kernel not distributed here.
+- **Nanocode v2.0 kernel:** proprietary, closed-source kernel not distributed here.
 
 This separation is intentional and enforced to prevent licensing ambiguity and architectural drift.
 
